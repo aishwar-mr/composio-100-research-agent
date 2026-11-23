@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "set": "tuning",
+    "auth_methods": ["oauth2"],
+    "access": "self_serve_trial",
+    "api_type": "both",
+    "api_breadth": "large",
+    "existing_mcp": "none",
+    "verdict": "buildable_now",
+    "blocker": "none"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "set": "holdout",
+    "api_type": "cli_only",
+    "verdict": "not_applicable",
+    "blocker": "not_an_api_product"
+  }
+]
