@@ -6,6 +6,16 @@ and produces a single self-explanatory case-study page. This README explains wha
 built, how to run it, and what I found — all of it consistent with the numbers on the
 [live case-study page](https://aishwar-mr.github.io/composio-100-research-agent/).
 
+## The problem
+
+Composio turns apps into tools that AI agents can call. Before building a toolkit for
+an app, someone has to research it: what auth it uses, whether a developer can self-serve
+credentials or it's gated, what the API surface looks like, and whether it could be an
+MCP server or agent-callable skills. Composio does this across hundreds of apps, and
+doing it by hand doesn't scale. This project is a small, real version of that problem:
+take a list of 100 apps, research each one, surface the patterns across them, build an
+agent to do the work, and prove the findings are trustworthy.
+
 ## What I set out to do
 
 For each app I capture a fixed schema: a one-line summary, the auth method(s), whether
